@@ -4,7 +4,7 @@ let boardWidth = 500;
 let boardHeight = 500;
 let context; 
 
-//players
+//Players
 let playerWidth = 80; //500 for testing, 80 normal
 let playerHeight = 10;
 let playerVelocityX = 10; //move 10 pixels each time
