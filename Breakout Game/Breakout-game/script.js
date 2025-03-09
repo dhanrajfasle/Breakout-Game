@@ -90,7 +90,6 @@ function update() {
     else if (leftCollision(ball, player) || rightCollision(ball, player)) {
         ball.velocityX *= -1;   // flip x direction left or right
     }
-
     if (ball.y <= 0) { 
         // if ball touches top of canvas
         ball.velocityY *= -1; //reverse direction
@@ -163,7 +162,7 @@ function movePlayer(e) {
         if (!outOfBounds(nextplayerX)) {
             player.x = nextplayerX;
         }
-        // player.x += player.velocityX;    
+         player.x += player.velocityX;    
     }
 }
 
